@@ -1,0 +1,98 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Test folder
+tests/
+test/
+
+# Test files
+*.cover
+.coverage
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+config.ini
+secrets.json
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files (adjust based on your needs)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.pickle
+*.pkl
+
+# Model files and artifacts
+models/
+*.h5
+*.pkl
+*.joblib
+*.model
+*.weights
+
+# Logs
+logs/
+*.log
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation builds
+docs/_build/
+site/
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard logs
+runs/
+tensorboard_logs/
